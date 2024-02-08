@@ -5,9 +5,9 @@
     noremapk j
 
 " Creating buffer control key bindings
-    nnoremap <leader>l :bn<CR>
-    nnoremap <leader>h :bp<CR>
-    nnoremap <leader>d :bd<CR>
+    nnoremap <silent><leader>l :bn<CR>
+    nnoremap <silent><leader>h :bp<CR>
+    nnoremap <silent><leader>d :bd<CR>
     
 " Creating imap binding for Coc autocompletion accept
     imap <c-a> <c-y>
