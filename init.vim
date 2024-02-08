@@ -19,6 +19,8 @@ Plug 'EdenEast/nightfox.nvim' " Vim-Plug
 
 Plug 'tckmn/hotdog.vim'
 
+Plug 'neovim/nvim-lspconfig'
+
 Plug 'nvim-tree/nvim-web-devicons' " Recommended (for coloured icons)
 " Plug 'ryanoasis/vim-devicons' Icons without colours
 Plug 'akinsho/bufferline.nvim', { 'tag': '*' }

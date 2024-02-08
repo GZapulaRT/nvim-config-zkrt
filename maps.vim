@@ -19,6 +19,7 @@
     nmap <leader>o o<Esc><S-o>
 "    nmap <leader>t :!mingw32-make.exe all<CR>
     nmap <leader>p :cd $Platfighter<CR>
+    nmap <leader>ex :!platfighter.exe<CR>
     
     nmap <leader>fear :colorscheme hotdog<CR>
     nmap <leader>fix :colorscheme terafox<CR>
