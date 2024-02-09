@@ -5,6 +5,13 @@ require("bufferline").setup{
     }
 }
 
+vim.api.nvim_create_autocmd('TextYankPost', {
+  pattern = '*',
+  callback = function ()
+    vim.highlight.on_yank {higroup="YankHighlight", timeout=150}
+  end
+})
+
 if vim.loop.os_uname().sysname == "Windows_NT" then
     vim.keymap.set('n', '<Leader>t', '<cmd>!mingw32-make.exe all<CR>')
     vim.keymap.set('n', '<Leader>cl', '<cmd>!mingw32-make.exe clean<CR>')
